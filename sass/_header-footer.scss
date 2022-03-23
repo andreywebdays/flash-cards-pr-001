@@ -26,6 +26,12 @@
     font-size: 0.6rem;
 }
 
+.header a,
+.footer a {
+    color: $header-color;
+    text-decoration: none;
+}
+
 @include mq(768px) {
     .header {
         font-size: 1rem;
